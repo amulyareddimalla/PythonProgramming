@@ -1,0 +1,26 @@
+Lucky_Numbers=[4,8,15,16,23,42]
+family=["Mom","Dad","Baby","Baby"]
+'''print(family)
+print(family[2])
+print(family[-3])
+print(family[1:])
+print(family[1:2])
+#updating values in list
+family[0]="Dad"
+family[1]="Mummy"
+print(family[0:2])'''
+'''family.append("Baby2")
+print(family)
+family.insert(0,"Granny")
+print(family)
+family.extend(Lucky_Numbers)
+print(family)
+family.remove("Baby2")
+print(family)
+family.pop()
+print(family)
+print(family.count("Baby"))'''
+family.sort()
+print(family)
+family2=family.copy()
+print(family2)
